@@ -1,0 +1,193 @@
+body {
+  padding-top: 50px;
+}
+
+.em-text{
+	color: #1caa98!important;
+}
+
+section {
+	padding: 40px 0 40px 0;
+}
+.jumbotron {
+	background-color:#1b222a !important;
+	background:  url(../img/bg-jumbotron.jpg) no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	height: 500px;
+	overflow: hidden;
+}
+  
+.jumbotron h1 {
+	margin-top: 60px;
+}
+ 
+.jumbotron p {
+	margin-bottom: 40px;
+}
+	
+.jumbotron .app-btn{
+	width: 40%;
+	height: auto;
+	margin-right: 30px;
+}
+
+.showcase-img {
+	width: 75%;
+	height: auto;
+}
+
+.demo {
+	width: 100%;
+	height: auto;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+.middle .row div{
+	margin-bottom: 20px;
+}
+.feature {
+	background: #1caa98;
+	color: #fff;
+	padding: 40px;
+	overflow: auto;
+}
+
+.feature li {
+	font-size: 22px;
+	list-style: none;
+	line-height: 2em;
+}
+
+.big-logo {
+	width: 100%;
+	height: auto;
+}
+.title-bar {
+	padding:0;
+	margin: 0;
+	height: 80px;
+	background: #1caa98;
+	color: #fff;
+	
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	padding: 30px 0 20px 0;
+}
+
+footer li {
+	float: left;
+	padding: 0 10px 0 10px;
+	list-style: none;
+}
+
+footer a {
+	color:#fff;		
+}
+
+footer p {
+	float: right;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 1200px){
+	
+}
+
+@media(max-width: 991px){
+	.showcase-img{
+		display: none;
+	}
+	.contact form{
+		margin-bottom: 30px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+	.jumbotron {
+		height: 400px !important;
+		background-size: 100% 100%;
+	}
+	
+	.jumbotron .app-btn{
+		width: 30%;
+	}
+
+	.jumbotron h1 {
+		margin-top: 10px;
+	}
+		
+}
+
+@media(max-width: 768px){
+	.jumbotron {
+		height: 350px !important;
+		background-size: 100% 100%;
+	}
+
+	.jumbotron h1 {
+			margin-top: 10px;
+	}
+
+	.big-logo {
+		width: 80%;
+		margin: 0 auto !important;
+	}
+
+	
+
+}
+
+@media(max-width: 500px){
+	.jumbotron {
+		height: 450px !important;
+		background-image: none;
+		text-align: center;
+	}
+		
+	.jumbotron .app-btn{
+		width: 60%;
+		margin: 0 auto 30px auto; 
+		display: block;
+	}
+	
+	.feature {
+		padding: 25px;
+	}
+	.feature h1 {
+		font-size: 28px;
+	}
+	.feature ul{
+		padding: 0;
+	}
+	.feature li{
+		font-size: 16px;
+	}
+	
+	.big-logo {
+		width: 100%;
+
+	}
+	
+	footer ul {
+		display: inline-block;
+		padding: 0;
+		margin: 0 auto !important;
+		font-size: 12px;
+		/*text-align: center;*/
+		height: 12px;
+		
+	}
+
+	footer p {
+		float: none;
+		font-size: 12px;
+		margin-top: 10px;
+		text-align: center;
+	}
+	
+}
